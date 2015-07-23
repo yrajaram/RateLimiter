@@ -13,3 +13,8 @@ Karma /ˈkɑːmə/:
 	
 Ko-ko: Indian traditional tag game.  The objective is to tag all the opponents in the shortest time possible.
 	http://www.traditionalgames.in/home/outdoor-games/kho-kho-ko-ko
+	
+
+Here is how I plan to enhance this:
+1. Use an ExecutorService (like FixedThreadPool) instead of single thread so that this can be used where the volume of transactions are high.
+2. Enhance this implementation for distributed JVMs so that all instances of your server logic can collaborate.
