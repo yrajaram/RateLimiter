@@ -55,7 +55,7 @@ public class FrequencyMonitor implements Runnable{
 	public void run() {
 		QueueElement nodeAtHead = null;
 		do {
-			if ((nodeAtHead = beeLine.peek())==null) { // Empty queue
+			if ((nodeAtHead = beeLine.poll())==null) { // Empty queue
 				try {
 					Thread.sleep(60*1000); // Minute
 				} catch (InterruptedException e) {
