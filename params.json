@@ -1,0 +1,6 @@
+{
+  "name": "Ratelimiter",
+  "tagline": "Limit number of invocations",
+  "body": "# Rate Limiter\r\n\r\nI call this algorithm '**Karmic Ko-ko**'. You can use this in accordance with Apache License. \r\n\r\n\r\nKarma /ˈkɑːmə/: \r\n> (Hinduism, Buddhism) the principle of retributive justice determining a person's state of life and the state of his or her reincarnations as the effect of past deeds (theosophy) the doctrine of inevitable consequence\r\n>\r\n> Karmic adjective\r\n\t\r\n\t\r\nKo-ko: \r\n> Indian traditional tag game.  The objective is to tag all the opponents in the shortest time possible.\r\n> http://www.traditionalgames.in/home/outdoor-games/kho-kho-ko-ko\r\n\t\r\n\r\n## Here is how I plan to enhance this:\r\n1. Use an ExecutorService (like FixedThreadPool) instead of single thread so that this can be used where the volume of transactions are high.\r\n2. Enhance this implementation for distributed JVMs so that all instances of your server logic can collaborate.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

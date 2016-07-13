@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Ratelimiter : Limit number of invocations">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Ratelimiter</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/yrajaram/RateLimiter">View on GitHub</a>
+
+          <h1 id="project_title">Ratelimiter</h1>
+          <h2 id="project_tagline">Limit number of invocations</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/yrajaram/RateLimiter/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/yrajaram/RateLimiter/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="rate-limiter" class="anchor" href="#rate-limiter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rate Limiter</h1>
+
+<p>I call this algorithm '<strong>Karmic Ko-ko</strong>'. You can use this in accordance with Apache License. </p>
+
+<p>Karma /ˈkɑːmə/: </p>
+
+<blockquote>
+<p>(Hinduism, Buddhism) the principle of retributive justice determining a person's state of life and the state of his or her reincarnations as the effect of past deeds (theosophy) the doctrine of inevitable consequence</p>
+
+<p>Karmic adjective</p>
+</blockquote>
+
+<p>Ko-ko: </p>
+
+<blockquote>
+<p>Indian traditional tag game.  The objective is to tag all the opponents in the shortest time possible.
+<a href="http://www.traditionalgames.in/home/outdoor-games/kho-kho-ko-ko">http://www.traditionalgames.in/home/outdoor-games/kho-kho-ko-ko</a></p>
+</blockquote>
+
+<h2>
+<a id="here-is-how-i-plan-to-enhance-this" class="anchor" href="#here-is-how-i-plan-to-enhance-this" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Here is how I plan to enhance this:</h2>
+
+<ol>
+<li>Use an ExecutorService (like FixedThreadPool) instead of single thread so that this can be used where the volume of transactions are high.</li>
+<li>Enhance this implementation for distributed JVMs so that all instances of your server logic can collaborate.</li>
+</ol>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Ratelimiter maintained by <a href="https://github.com/yrajaram">yrajaram</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
